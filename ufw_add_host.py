@@ -29,7 +29,7 @@ def add_rule(url):
 
     for ip in ip_list:
         print(ip)
-        # run("ufw allow out from any to ", ip)
+        run("ufw allow out from any to ", ip)
 
 
 def error():
